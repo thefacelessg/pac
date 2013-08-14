@@ -97,7 +97,7 @@ else if (shExpMatch(url, "*hrichina*")) { return addr0;}
 else if (shExpMatch(url, "*meetup*")) { return addr0;}
 else if (shExpMatch(url, "*stackoverflow*")) { return addr0;}
 else if (shExpMatch(url, "*github*")) { return addr0;}
-else if (shExpMatch(url, "*waiting*")) { return addr0;}
+else if (shExpMatch(url, "*wordpress*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}

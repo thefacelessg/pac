@@ -5,7 +5,7 @@ var addr8086='PROXY 127.0.0.1:8086';
 var addr8087='PROXY 127.0.0.1:8087';
 var addr8088='PROXY 127.0.0.1:8088';
 var addr8580='PROXY 127.0.0.1:8580';
-var addr0=addr8088;
+var addr0=addr8087;
 
 
 

@@ -100,6 +100,7 @@ else if (shExpMatch(url, "*github*")) { return addr0;}
 else if (shExpMatch(url, "*wordpress*")) { return addr0;}
 else if (shExpMatch(url, "*khanacademy*")) { return addr0;}
 else if (shExpMatch(url, "*note.youdao.com*")) { return addr0;}
+else if (shExpMatch(url, "*codeeval*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 

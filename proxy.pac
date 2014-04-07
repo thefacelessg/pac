@@ -8,6 +8,7 @@ var addr8580='PROXY 127.0.0.1:8580';
 var addr0=addr8087;
 
 
+//endswith = .mov|.mpeg4|.wmv|.mpegps|.3gpp|.webm|.f4v|.flv|.hlv|.m4v|.mp4|.mp3|.ogg|.avi|.exe|.zip|.iso|.rar|.bz2|.xz|.dmg
 
 if ((host == "localhost") ||(shExpMatch(host, "localhost*")) ||(host == "127.0.0.1")) 
 {return "DIRECT";}
@@ -101,6 +102,7 @@ else if (shExpMatch(url, "*wordpress*")) { return addr0;}
 else if (shExpMatch(url, "*khanacademy*")) { return addr0;}
 //else if (shExpMatch(url, "*note.youdao.com*")) { return addr0;}
 else if (shExpMatch(url, "*codeeval*")) { return addr0;}
+//else if (shExpMatch(url, "*googlevideo*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 

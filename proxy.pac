@@ -104,6 +104,10 @@ else if (shExpMatch(url, "*khanacademy*")) { return addr0;}
 else if (shExpMatch(url, "*codeeval*")) { return addr0;}
 //else if (shExpMatch(url, "*googlevideo*")) { return addr0;}
 else if (shExpMatch(url, "*coursera*")) { return addr0;}
+else if (shExpMatch(url, "*golang.org*")) { return addr0;}
+else if (shExpMatch(url, "*cloudflare*")) { return addr0;}
+else if (shExpMatch(url, "*mixpanel*")) { return addr0;}
+else if (shExpMatch(url, "*.cdn.*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 else if (shExpMatch(url, "*waiting*")) { return addr0;}
 

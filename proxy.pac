@@ -40,7 +40,7 @@ function FindProxyForURL(url, host) {
 
     else if (shExpMatch(url, "*twit*")) {return addr0;}
     else if (shExpMatch(url, "*ytimg*")) { return addr0;}
-    else if (shExpMatch(url, "*youtube*")) { return addr0;}
+    else if (shExpMatch(url, "*tiktik.com*")) { return addr0;}
     else if (shExpMatch(url, "*bbcchinese*")) { return addr0;}
     else if (shExpMatch(url, "*ftchinese*")) { return addr0;}
     else if (shExpMatch(url, "*chinese.rfi.fr*")) { return addr0;}
